@@ -1,0 +1,28 @@
+:root {
+  --vp-c-brand: #2C3E50;
+  --vp-c-brand-light: #42B883;
+  --vp-c-brand-lighter: #6DB33F;
+  --vp-c-text-1: #34495E;
+  --vp-c-text-2: #7F8C8D;
+
+  --vp-font-family-base: system-ui, Inter, sans-serif;
+  --vp-font-family-mono: 'Fira Code', monospace;
+}
+
+.dark {
+  --vp-c-brand: #42B883;
+}
+
+.vp-doc p {
+  margin: 1rem 0 1.618rem;
+}
+
+.vp-doc div[class*='language-'] {
+  margin: 1rem 0;
+}
+
+@media (max-width: 640px) {
+  .vp-doc table {
+    display: none;
+  }
+}
